@@ -82,7 +82,7 @@ section h2 {
 
 #mainNav .navbar-toggler {
   font-size: 12px;
-  padding: 8px 10px;
+  padding: 8px 8px;
   color: #222222;
 }
 
@@ -133,7 +133,7 @@ section h2 {
   }
   #mainNav.navbar-shrink {
     border-color: rgba(34, 34, 34, 0.1);
-    background-color: white;
+    background-color: black;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #222222;
