@@ -571,4 +571,32 @@ button[disabled]#formSubmit:focus {
         margin-top: 0px;
     }
 }
+<<<<<<< HEAD
  */
+=======
+
+.form-control-1 {
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #fa3666;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.social {
+  margin-bottom: 25px;
+  margin-top: 45px;
+}
+>>>>>>> a3cd675d70d62c47895405716cc82843e50d9e94
