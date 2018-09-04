@@ -22,16 +22,8 @@ body {
 body {
 }
 
-a {
-  color: #fdcc52;
-  -webkit-transition: all .35s;
-  -moz-transition: all .35s;
-  transition: all .35s;
-}
 
-a:hover, a:focus {
-  color: #fcbd20;
-}
+
 
 hr {
   max-width: 100px;
@@ -381,6 +373,7 @@ section.descarga .descarga-content p {
    CONTACT AREA
 ===================================== */
 
+/*
 #contact-area {
     position: relative;
 }
@@ -546,7 +539,7 @@ button[disabled]#formSubmit:focus {
 /* =====================================
    FOOTER AREA
 ===================================== */
-
+/*
 #footer-area {
     background-color: #2b323f;
     padding-bottom: 45px;
@@ -578,3 +571,4 @@ button[disabled]#formSubmit:focus {
         margin-top: 0px;
     }
 }
+ */
