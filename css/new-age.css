@@ -653,3 +653,46 @@ button[disabled]#formSubmit:focus {
   margin-bottom: 25px;
   margin-top: 45px;
 }
+
+*/
+.estilo1{
+  color:#FFF;
+  background-color:#1C1C1C;
+}
+.rounded-rectangle-1 {
+	height: 33px;
+	width: 192px;
+	border: 1px solid #000000;
+	background-color: #FA3666;
+}
+
+
+.enviar {
+  height: 9px;
+  width: 32px;
+  color: #FFFFFF;
+  font-family: Lato;
+  font-size: 12px;
+  line-height: 31px;
+}
+
+.rrss {
+	height: 26px;
+	width: 136px;
+}
+
+.input-group{
+  max-width: 300px;
+  margin: 0 auto;
+}
+.text-responsive{
+  padding-left:70px;
+  padding-right:70px;
+}
+.contact-icon{
+  display: inline-block;
+}
+.contact-enviar{
+  margin: 0 auto;
+  display: block;
+}
