@@ -46,6 +46,10 @@ h6 {
   letter-spacing: 1px;
 }
 
+h1{
+  font-weight: bold;
+}
+
 p {
   font-size: 18px;
   line-height: 1.5;
@@ -168,9 +172,7 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
-  background: url("../img/Elementos Web/BG_Pagai1@3x.png");
-  background-size: cover;
-  background-position: center;
+  background-color: #222222;
 }
 
 header.masthead .header-content {
@@ -297,9 +299,8 @@ section.descarga {
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
-  background: url("../img/Elementos Web/BG_Pagai2@3x.png");
-  background-size: cover;
-  background-position: center;
+  background-color: #FA3666;
+
 
 }
 
@@ -367,6 +368,26 @@ section.descarga .descarga-content p {
   height: 3692px;
   width: 1933px;
 }
+
+.flex{
+  display: flex;
+
+}
+.flex .col-6{
+  flex: 1;
+}
+section.subscribe-area .subscribe-box{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  right: 50%
+}
+
+.card{
+  height: 100%;
+}
+
+
 /*sacado de citywalletcl */
 
 /* =====================================
