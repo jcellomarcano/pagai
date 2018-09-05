@@ -15,8 +15,8 @@ body {
   font-weight: bold;
 }
 
-*{
-  font-family: Gilroy !important;
+* {
+  font-family: Gilroy;
 }
 
 body {
@@ -571,9 +571,8 @@ button[disabled]#formSubmit:focus {
         margin-top: 0px;
     }
 }
-<<<<<<< HEAD
- */
-=======
+
+
 
 .form-control-1 {
   display: block;
@@ -599,4 +598,3 @@ button[disabled]#formSubmit:focus {
   margin-bottom: 25px;
   margin-top: 45px;
 }
->>>>>>> a3cd675d70d62c47895405716cc82843e50d9e94
