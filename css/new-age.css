@@ -646,3 +646,12 @@ button[disabled]#formSubmit:focus {
 	height: 26px;
 	width: 136px;
 }
+
+.input-group{
+  max-width: 300px;
+  margin: 0 auto;
+}
+.text-responsive{
+  padding-left:70px; 
+  padding-right:70px; 
+}
