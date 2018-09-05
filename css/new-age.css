@@ -655,3 +655,10 @@ button[disabled]#formSubmit:focus {
   padding-left:70px; 
   padding-right:70px; 
 }
+.contact-icon{
+  display: inline-block;
+}
+.contact-enviar{
+  margin: 0 auto;
+  display: block;
+}
