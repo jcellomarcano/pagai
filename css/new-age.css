@@ -51,7 +51,6 @@ h1{
 }
 
 p {
-  font-size: 18px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
@@ -327,10 +326,7 @@ section.descarga .descarga-content p {
 
 .pagai-estara-a-donde-tu-vayas {
 	color: #FA3666;
-	font-family: Gilroy;
-	font-size: 48px;
-	font-weight: 800;
-	line-height: 71px;
+	font-family: Gilroy
 }
 
 .vector-smart-object {
@@ -385,6 +381,8 @@ section.descarga .descarga-content p {
 }
 .card-text{
   color: #9E9E9E;
+  font-weight: 300;
+  text-align: center;
 
 }
 section.subscribe-area .subscribe-box{
@@ -401,6 +399,7 @@ section.subscribe-area .subscribe-box{
   justify-content: center;
   resize: vertical;
   height: calc(100% - 90px);
+  box-shadow: 0 2px 35px 18px rgba(0,0,0,0.15);
 
 }
 .card-body{
@@ -418,9 +417,25 @@ section.subscribe-area .subscribe-box{
 
 .iphone-img{
   display: block;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
+.form-control{
+  border: 1px solid #FA3666;
+}
+
+.btn-outline-secondary {
+    color: #FA3666;
+    background-color: transparent;
+    background-image: none;
+    border-color: #FA3666;
+}
+
+.btn-outline-secondary:hover {
+    color: #fff;
+    background-color: #FA3666;
+    border-color: #FA3666;
+}
 
 /*sacado de citywalletcl */
 
@@ -693,6 +708,6 @@ button[disabled]#formSubmit:focus {
   display: inline-block;
 }
 .contact-enviar{
-  margin: 0 auto;
+  margin: 25px auto;
   display: block;
 }
