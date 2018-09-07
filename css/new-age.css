@@ -172,7 +172,7 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
-  background: #222222 url("../img/Elementos Web/Pagai-BG-s1.png") no-repeat center top;
+  background: #222222 url("../img/Elementos Web/Pagai-BG-s1.png")  no-repeat center top;
 }
 
 header.masthead .header-content {
@@ -291,7 +291,18 @@ section.features .feature-item h3 {
   font-size: 30px;
 }
 
+.dash-line-service{
+  padding-left: 81px;
+  border-left: #FA3666 dashed 1px;
+  border-top-width: 20px;
+}
 
+.service-section-text{
+  margin: 50px auto;
+}
+.service-section-img{
+  position: absolute;
+}
 
 section.descarga {
   position: relative;
@@ -773,7 +784,7 @@ button[disabled]#formSubmit:focus {
 
 @media screen and (max-width: 1024px) { /* Specific to this particular image */
   section.features1 {
-    background-size: contain;
+    background-size: cover;
   }
 }
 .style-text-contact {
