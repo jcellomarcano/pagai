@@ -325,6 +325,7 @@ section.features1{
   position: relative;
   width: 100%;
   background: #FFF url("../img/Elementos Web/BG_Pagai3@3x.png") no-repeat center ;
+  background-size: contain;
 }
 
 .text-pagai {
