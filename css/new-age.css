@@ -709,6 +709,12 @@ button[disabled]#formSubmit:focus {
   color:#FFF;
   background-color:#1C1C1C;
 }
+.footer-style{
+  color:#FFF;
+}
+.footer-style :hover{
+  color:#FA3666;
+}
 .rounded-rectangle-1 {
 	height: 33px;
 	width: 192px;
@@ -745,4 +751,28 @@ button[disabled]#formSubmit:focus {
 .contact-enviar{
   margin: 25px auto;
   display: block;
+}
+.contact-box{
+  border-bottom: 1px solid #FFFFFF;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-radius: 0rem;
+  background-color: #1C1C1C;
+  color: #FFFFFF;
+}
+
+.contact-box ::placeholder{
+  color: #FFF;
+}
+
+.address-info{
+  color: #ABABAC
+}
+
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  section.features1 {
+    background-size: contain;
+  }
 }
