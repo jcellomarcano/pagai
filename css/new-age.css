@@ -749,8 +749,11 @@ button[disabled]#formSubmit:focus {
   display: inline-block;
 }
 .contact-enviar{
-  margin: 25px auto;
-  display: block;
+    border-radius: 8px;
+    margin: 25px auto;
+    display: block;
+    color: white;
+
 }
 .contact-box{
   border-bottom: 1px solid #FFFFFF;
