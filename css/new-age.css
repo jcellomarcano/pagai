@@ -321,6 +321,12 @@ section.descarga .descarga-content p {
 }
 
 
+section.features1{
+  position: relative;
+  width: 100%;
+  background: #FFF url("../img/Elementos Web/BG_Pagai3@3x.png") no-repeat center ;
+}
+
 .text-pagai {
   color: #FA3666 !important;
 }
@@ -441,6 +447,11 @@ section.subscribe-area .subscribe-box{
 .container-flex {
     display: flex;
     align-items: center;
+}
+
+.card-seccion2{
+  margin: 50px;
+  padding-top: 50px;
 }
 /*sacado de citywalletcl */
 
