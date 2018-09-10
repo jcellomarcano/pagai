@@ -698,7 +698,32 @@ button[disabled]#formSubmit:focus {
 }
 
 */
+.icon-boot{
+  position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 50%;
+    top: 28px;
+    z-index: 100;
+}
 
+.icon-money{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 50%;
+  top: 190px;
+      z-index: 100;
+}
+
+.icon-qr{
+  position: absolute;
+   width: 150px;
+   height: 150px;
+   left: 50%;
+   top: 350px;
+       z-index: 100;
+  }
 
  .a1{
     color: #FA3666;
