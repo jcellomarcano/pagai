@@ -201,6 +201,7 @@ header.masthead .device-container .screen img {
     min-height: 775px;
     padding-top: 0;
     padding-bottom: 0;
+    padding-top: 10px
   }
   header.masthead .header-content {
     margin-bottom: 0;
