@@ -817,6 +817,11 @@ button[disabled]#formSubmit:focus {
 	background-color: #FA3666;
 }
 
+.subscribe-sec-margin{
+  margin-top: 173px;
+  color: #FA3666;
+}
+
 
 .enviar {
   height: 9px;
@@ -888,17 +893,3 @@ button[disabled]#formSubmit:focus {
     /* box-shadow: 0 2px 35px 18px rgba(0,0,0,0.15); */
     /* height: 64px; */
     border-radius: 8px;
-}
-.icon-store-google{
-  height: 58px;
-  border-radius: 8px;
-}
-
-.icon-store-apple{
-  height: 41px;
-  border-radius: 8px;
-  position: absolute;
-  display: block;
-  top: 9px;
-  left: 20px;
-}
