@@ -859,6 +859,37 @@ button[disabled]#formSubmit:focus {
 
   }
 
+  @media screen and (max-width: 360px) { /* Specific to this particular image */
+    .icon-boot{
+      position: absolute;
+        width: 80px;
+        height: 80px;
+        left: 65%;
+        top: 68px;
+        z-index: 100;
+        transform: translate(-14%,0);
+    }
+    .icon-money{
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      left: 65%;
+      top: 338px;
+      z-index: 100;
+      transform: translate(-14%,0);
+    }
+    .icon-qr{
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      left: 65%;
+      top: 600px;
+      z-index: 100;
+      transform: translate(-14%,0);
+      }
+
+  }
+
  .a1{
     color: #FA3666;
     text-decoration: none;
