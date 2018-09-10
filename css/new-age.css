@@ -201,6 +201,7 @@ header.masthead .device-container .screen img {
     min-height: 775px;
     padding-top: 0;
     padding-bottom: 0;
+    padding-top: 10px
   }
   header.masthead .header-content {
     margin-bottom: 0;
@@ -854,6 +855,37 @@ button[disabled]#formSubmit:focus {
       top: 375px;
       z-index: 100;
       transform: translate(-8%,0);
+      }
+
+  }
+
+  @media screen and (max-width: 360px) { /* Specific to this particular image */
+    .icon-boot{
+      position: absolute;
+        width: 80px;
+        height: 80px;
+        left: 65%;
+        top: 68px;
+        z-index: 100;
+        transform: translate(-14%,0);
+    }
+    .icon-money{
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      left: 65%;
+      top: 338px;
+      z-index: 100;
+      transform: translate(-14%,0);
+    }
+    .icon-qr{
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      left: 65%;
+      top: 600px;
+      z-index: 100;
+      transform: translate(-14%,0);
       }
 
   }
