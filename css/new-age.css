@@ -878,8 +878,14 @@ button[disabled]#formSubmit:focus {
   color: #ABABAC;
   background-color: #1C1C1C;
 }
-.icon-store{
-  box-shadow: 0 2px 35px 18px rgba(0,0,0,0.15);
-  height: 58px;
-  border-radius: 8px;
+.icon-store-apple{
+    margin: 9px;
+    height: 53px;
+    border-radius: 8px;
+}
+.icon-store-google{
+  width: 186px;
+    /* box-shadow: 0 2px 35px 18px rgba(0,0,0,0.15); */
+    /* height: 64px; */
+    border-radius: 8px;
 }
