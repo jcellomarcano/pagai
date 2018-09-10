@@ -817,6 +817,11 @@ button[disabled]#formSubmit:focus {
 	background-color: #FA3666;
 }
 
+.subscribe-sec-margin{
+  margin-top: 173px;
+  color: #FA3666;
+}
+
 
 .enviar {
   height: 9px;
