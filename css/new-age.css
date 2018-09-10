@@ -98,8 +98,7 @@ section h2 {
 #mainNav .navbar-toggler {
   font-size: 12px;
   padding: 8px 8px;
-  color: #FFFEFE;
-  border-color: rgb(250, 54, 102);
+  background-color: #FFFEFE;
 }
 
 #mainNav .navbar-nav > li > a {
@@ -149,6 +148,7 @@ section h2 {
   #mainNav.navbar-shrink {
     border-color: rgba(34, 34, 34, 0.1);
     background-color: #222222;
+    padding-top: 8px;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #FFFEFE;
@@ -289,6 +289,20 @@ section.features .feature-item {
 
 section.features .feature-item h3 {
   font-size: 30px;
+}
+section.features1 .feature-item h4 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+}
+
+section.features .feature-item p {
+  color: #000;
+
+}
+
+.padding-features1-item-par{
+  padding-right: 100px;
 }
 
 .dash-line-service{
@@ -780,6 +794,66 @@ button[disabled]#formSubmit:focus {
       top: 315px;
       z-index: 100;
       transform: translate(3%,0);
+      }
+
+  }
+  @media screen and (max-width: 570px) { /* Specific to this particular image */
+    .icon-boot{
+      position: absolute;
+        width: 80px;
+        height: 80px;
+        left: 65%;
+        top: 50px;
+        z-index: 100;
+        transform: translate(-11%,0);
+    }
+    .icon-money{
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      left: 65%;
+      top: 215px;
+      z-index: 100;
+      transform: translate(-11%,0);
+    }
+    .icon-qr{
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      left: 65%;
+      top: 375px;
+      z-index: 100;
+      transform: translate(-11%,0);
+      }
+
+  }
+  @media screen and (max-width: 667px) { /* Specific to this particular image */
+    .icon-boot{
+      position: absolute;
+        width: 80px;
+        height: 80px;
+        left: 65%;
+        top: 50px;
+        z-index: 100;
+        transform: translate(-8%,0);
+    }
+    .icon-money{
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      left: 65%;
+      top: 211px;
+      z-index: 100;
+      transform: translate(-8%,0);
+    }
+    .icon-qr{
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      left: 65%;
+      top: 375px;
+      z-index: 100;
+      transform: translate(-8%,0);
       }
 
   }
