@@ -700,28 +700,28 @@ button[disabled]#formSubmit:focus {
 */
 .icon-boot{
   position: absolute;
-    width: 150px;
-    height: 150px;
-    left: 50%;
-    top: 28px;
+    width: 80px;
+    height: 80px;
+    left: 71%;
+    top: 50px;
     z-index: 100;
 }
 
 .icon-money{
   position: absolute;
-  width: 150px;
-  height: 150px;
-  left: 50%;
-  top: 190px;
+  width: 80px;
+  height: 80px;
+    left: 71%;
+      top: 215px;
       z-index: 100;
 }
 
 .icon-qr{
   position: absolute;
-   width: 150px;
-   height: 150px;
-   left: 50%;
-   top: 350px;
+  width: 80px;
+  height: 80px;
+    left: 71%;
+       top: 370px;
        z-index: 100;
   }
 
