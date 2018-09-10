@@ -304,6 +304,10 @@ section.features .feature-item h3 {
   position: absolute;
 }
 
+.center-me{
+  margin: 0 auto;
+}
+
 section.descarga {
   position: relative;
   width: 100%;
@@ -405,10 +409,14 @@ section.features1{
 
 }
 section.subscribe-area .subscribe-box{
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  right: 50%
+  position: relative;
+  width: 100%;
+}
+
+section.subscribe-area{
+  position: relative;
+  width: 100%;
+  background-size: contain;
 }
 
 .card{
@@ -698,31 +706,82 @@ button[disabled]#formSubmit:focus {
 }
 
 */
+.head-features1{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: auto;
+  width: auto;
+  max-width: 100%
+}
+.footer-features1{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: auto;
+  width: auto;
+  max-width: 100%;
+}
+
 .icon-boot{
   position: absolute;
     width: 80px;
     height: 80px;
-    left: 71%;
+    left: 65%;
     top: 50px;
     z-index: 100;
+    transform: translate(-8%,0);
 }
 
 .icon-money{
   position: absolute;
   width: 80px;
   height: 80px;
-    left: 71%;
-      top: 215px;
-      z-index: 100;
+  left: 65%;
+  top: 215px;
+  z-index: 100;
+  transform: translate(-8%,0);
 }
 
 .icon-qr{
   position: absolute;
   width: 80px;
   height: 80px;
-    left: 71%;
-       top: 370px;
-       z-index: 100;
+  left: 65%;
+   top: 370px;
+   z-index: 100;
+   transform: translate(-8%,0);
+  }
+
+  @media screen and (max-width: 993px) { /* Specific to this particular image */
+    .icon-boot{
+      position: absolute;
+        width: 80px;
+        height: 80px;
+        left: 65%;
+        top: 50px;
+        z-index: 100;
+        transform: translate(3%,0);
+    }
+    .icon-money{
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      left: 65%;
+      top: 177px;
+      z-index: 100;
+      transform: translate(3%,0);
+    }
+    .icon-qr{
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      left: 65%;
+      top: 315px;
+      z-index: 100;
+      transform: translate(3%,0);
+      }
+
   }
 
  .a1{
