@@ -859,7 +859,7 @@ button[disabled]#formSubmit:focus {
 
   }
 
-  @media screen and (max-width: 360px) { /* Specific to this particular image */
+  @media screen and (max-width: 380px) { /* Specific to this particular image */
     .icon-boot{
       position: absolute;
         width: 80px;
