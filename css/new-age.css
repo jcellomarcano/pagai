@@ -457,9 +457,14 @@ section.subscribe-area{
   transform: translate(-50%,0)
 }
 
+
+.img-fluid1{
+  width: 75%;
+}
+
 .iphone-img{
-  display: block;
-  margin: 50px auto;
+  /*display: block;
+  margin: 50px auto;*/
 }
 
 .form-control{
@@ -721,6 +726,10 @@ button[disabled]#formSubmit:focus {
 }
 
 */
+.device{
+  height: 100%;
+    width: 100%;
+}
 .head-features1{
   position: absolute;
   bottom: 0px;
