@@ -1044,11 +1044,13 @@ button[disabled]#formSubmit:focus {
   margin: 8px;
   width: 184px;
   border-radius: 8px;
+  margin-left: 90px;
 }
 .icon-store-google{
   margin: 9px;
     width: 189px;
     border-radius: 8px;
+    margin-left: 90px;
 }
 
 .icon-done{
