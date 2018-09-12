@@ -867,7 +867,7 @@ button[disabled]#formSubmit:focus {
       z-index: 100;
       transform: translate(-8%,0);
     }
-    .icon-qr{
+    .icon-qr-malito{
       position: absolute;
       width: 80px;
       height: 80px;
@@ -875,6 +875,21 @@ button[disabled]#formSubmit:focus {
       top: 375px;
       z-index: 100;
       transform: translate(-8%,0);
+      }
+      .line-done {
+        position: absolute !important;
+        left: 50% !important;
+        margin-top: 120px !important;
+        height: calc(100% - 280px) !important;
+      }
+
+      .icon-transfer-money{
+        position: absolute;
+        top: 45%;
+      }
+      .icon-qr-done {
+        position: absolute;
+        top: 75%;
       }
 
 
@@ -1005,7 +1020,7 @@ button[disabled]#formSubmit:focus {
 }
 
 
-@media screen and (max-width: 1024px) 
+@media screen and (max-width: 1024px)
 { /* Specific to this particular image */
   section.features1 {
     background-size: cover;
