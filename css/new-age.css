@@ -844,11 +844,11 @@ button[disabled]#formSubmit:focus {
       }
 
       .align-right{
-        /*float: right;*/
+        float: center !important;
       }
 
   }
-@media only screen and (min-width: 360px) and (max-width: 580px) { /* Specific to this particular image */
+@media only screen and (min-width: 360px) and (max-width: 480px) { /* Specific to this particular image */
   .icon-boot{
     position: absolute;
       width: 80px;
@@ -932,7 +932,7 @@ button[disabled]#formSubmit:focus {
       max-width: 100% !important;
     }
     .center-me {
-      margin: auto 0px;
+      margin: 0 auto;
     }
 
 
