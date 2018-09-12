@@ -303,7 +303,7 @@ section.features .feature-item p {
 }
 
 .padding-features1-item-par{
-  padding-right: 100px;
+  padding-right: 10px;
 }
 
 .dash-line-service{
@@ -848,56 +848,92 @@ button[disabled]#formSubmit:focus {
       }
 
   }
-  @media only screen and (min-width: 360px) and (max-width: 767px) { /* Specific to this particular image */
-    .icon-boot{
-      position: absolute;
-        width: 80px;
-        height: 80px;
-        left: 65%;
-        top: 50px;
-        z-index: 100;
-        transform: translate(-8%,0);
-    }
-    .icon-money{
-      position: absolute;
+@media only screen and (min-width: 360px) and (max-width: 580px) { /* Specific to this particular image */
+  .icon-boot{
+    position: absolute;
       width: 80px;
       height: 80px;
       left: 65%;
-      top: 211px;
+      top: 50px;
       z-index: 100;
       transform: translate(-8%,0);
+  }
+  .icon-money{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 65%;
+    top: 211px;
+    z-index: 100;
+    transform: translate(-8%,0);
+  }
+  .icon-qr-malito{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 65%;
+    top: 375px;
+    z-index: 100;
+    transform: translate(-8%,0);
     }
-    .icon-qr-malito{
-      position: absolute;
-      width: 80px;
-      height: 80px;
-      left: 65%;
-      top: 375px;
-      z-index: 100;
-      transform: translate(-8%,0);
-      }
-      .line-done {
-        position: absolute !important;
-        left: 50% !important;
-        margin-top: 120px !important;
-        height: calc(100% - 280px) !important;
-      }
+    .line-done {
+      position: absolute !important;
+      left: 50% !important;
+      margin-top: 120px !important;
+      height: calc(100% - 280px) !important;
+    }
 
-      .icon-transfer-money{
-        position: absolute;
-        top: 45%;
-      }
-      .icon-qr-done {
-        position: absolute;
-        top: 75%;
-      }
-      #mainNav {
-        padding-top: 10px !important;
-        max-width: 100% !important;
-      }
-      .center-me {
-        margin: auto 0px;
-      }
+    .icon-transfer-money{
+      position: absolute;
+      top: 45%;
+    }
+    .icon-qr-done {
+      position: absolute;
+      top: 75%;
+    }
+    #mainNav {
+      padding-top: 10px !important;
+      max-width: 100% !important;
+    }
+    .center-me {
+      margin: auto 0px;
+    }
+}
+
+@media only screen and  (max-width: 320px) { /* Specific to this particular image */
+  .icon-boot-done{
+    position: absolute;
+    height: 8%;
+    top: 11%;
+    transform: translate(-20%,0);
+    }
+
+    .line-done {
+      position: absolute !important;
+      left: 50%  !important;
+      margin-top: 140px  !important;
+      height: calc(100% - 356px) !important;
+    }
+
+    .icon-transfer-money{
+      position: absolute;
+      height: 8%;
+      top: 43%;
+      transform: translate(-20%,0);
+    }
+    .icon-qr-done {
+      position: absolute !important;
+      height: 10% !important;
+      top: 72%  !important;
+      transform: translate(-20%,0) !important;
+    }
+    #mainNav {
+      padding-top: 10px !important;
+      max-width: 100% !important;
+    }
+    .center-me {
+      margin: auto 0px;
+    }
 
 
 
