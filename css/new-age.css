@@ -463,8 +463,8 @@ section.subscribe-area{
 }
 
 .iphone-img{
-  /*display: block;
-  margin: 50px auto;*/
+  display: block;
+  margin: 50px auto;
 }
 
 .form-control{
@@ -989,7 +989,8 @@ button[disabled]#formSubmit:focus {
 }
 
 
-@media screen and (max-width: 1024px) { /* Specific to this particular image */
+@media screen and (max-width: 1024px) 
+{ /* Specific to this particular image */
   section.features1 {
     background-size: cover;
   }
