@@ -900,7 +900,7 @@ button[disabled]#formSubmit:focus {
     }
 }
 
-@media only screen and  (max-width: 320px) { /* Specific to this particular image */
+@media only screen and  (max-width: 359px) { /* Specific to this particular image */
   .icon-boot-done{
     position: absolute;
     height: 8%;
