@@ -308,8 +308,10 @@ section.features .feature-item p {
 
 .dash-line-service{
   padding-left: 81px;
-  border-left: #FA3666 dashed 1px;
+/*  border-left: #FA3666 dashed 1px;
   border-top-width: 20px;
+  height: 390px;
+*/
 }
 
 .service-section-text{
@@ -1003,7 +1005,8 @@ button[disabled]#formSubmit:focus {
 }
 
 
-@media screen and (max-width: 1024px) { /* Specific to this particular image */
+@media screen and (max-width: 1024px) 
+{ /* Specific to this particular image */
   section.features1 {
     background-size: cover;
   }
@@ -1021,3 +1024,31 @@ button[disabled]#formSubmit:focus {
   margin: 9px;
     width: 189px;
     border-radius: 8px;
+}
+
+.icon-done{
+  margin: 0 auto;
+  width: 80px;
+  height: 80px;
+  /* left: 65%; */
+  /* top: 215px; */
+  z-index: 100;
+  /* transform: translate(-8%,0); */
+}
+
+.line-done{
+  position: absolute;
+  left: 50%;
+  margin-top: 50px;
+  height: calc(100% - 150px);
+}
+
+.margin-1{
+  margin: 50px;
+}
+.margin-2{
+  margin-top: 95px;
+}
+.margin-3{
+  margin-top: 100px;
+}
