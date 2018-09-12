@@ -493,6 +493,8 @@ section.subscribe-area{
   margin: 50px;
   padding-top: 50px;
 }
+
+
 /*sacado de citywalletcl */
 
 /* =====================================
@@ -805,6 +807,9 @@ button[disabled]#formSubmit:focus {
       z-index: 100;
       transform: translate(3%,0);
       }
+      .align-right{
+        float: right;
+      }
 
   }
   @media screen and (max-width: 570px) { /* Specific to this particular image */
@@ -836,8 +841,12 @@ button[disabled]#formSubmit:focus {
       transform: translate(-11%,0);
       }
 
+      .align-right{
+        /*float: right;*/
+      }
+
   }
-  @media screen and (max-width: 667px) { /* Specific to this particular image */
+  @media only screen and (min-width: 360px) and (max-width: 767px) { /* Specific to this particular image */
     .icon-boot{
       position: absolute;
         width: 80px;
@@ -866,9 +875,11 @@ button[disabled]#formSubmit:focus {
       transform: translate(-8%,0);
       }
 
+
+
   }
 
-  @media screen and (max-width: 380px) { /* Specific to this particular image */
+  @media screen and (max-width: 450px) { /* Specific to this particular image */
     .icon-boot{
       position: absolute;
         width: 80px;
@@ -895,6 +906,9 @@ button[disabled]#formSubmit:focus {
       top: 600px;
       z-index: 100;
       transform: translate(-14%,0);
+      }
+      .center-me {
+        margin: auto 70px;
       }
 
   }
