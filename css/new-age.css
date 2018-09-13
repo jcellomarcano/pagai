@@ -898,6 +898,23 @@ button[disabled]#formSubmit:focus {
     .center-me {
       margin: auto 0px;
     }
+    .icon-store-apple2{
+      display: block;
+      width: 184px;
+      border-radius: 8px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2px;
+      margin-bottom: 2px;
+    }
+    .icon-store-google2{
+        width: 189px;
+        border-radius: 8px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2px;
+        margin-bottom: 2px;
+      }
 }
 
 @media only screen and  (max-width: 359px) { /* Specific to this particular image */
@@ -934,6 +951,23 @@ button[disabled]#formSubmit:focus {
     .center-me {
       margin: 0 auto;
     }
+    .icon-store-apple2{
+      display: block;
+      width: 184px;
+      border-radius: 8px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2px;
+      margin-bottom: 2px;
+    }
+    .icon-store-google2{
+        width: 189px;
+        border-radius: 8px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2px;
+        margin-bottom: 2px;
+      }
 
 }
 
@@ -1046,16 +1080,16 @@ button[disabled]#formSubmit:focus {
   background-color: #1C1C1C;
 }
 .icon-store-apple2{
-  margin: 8px;
   width: 184px;
   border-radius: 8px;
-  margin-left: 90px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .icon-store-google2{
-  margin: 9px;
     width: 189px;
     border-radius: 8px;
-    margin-left: 90px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .icon-store-apple{
