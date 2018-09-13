@@ -1045,15 +1045,30 @@ button[disabled]#formSubmit:focus {
   color: #ABABAC;
   background-color: #1C1C1C;
 }
+.icon-store-apple2{
+  margin: 8px;
+  width: 184px;
+  border-radius: 8px;
+  margin-left: 90px;
+}
+.icon-store-google2{
+  margin: 9px;
+    width: 189px;
+    border-radius: 8px;
+    margin-left: 90px;
+}
+
 .icon-store-apple{
   margin: 8px;
   width: 184px;
   border-radius: 8px;
+  
 }
 .icon-store-google{
   margin: 9px;
     width: 189px;
     border-radius: 8px;
+   
 }
 
 .icon-done{
