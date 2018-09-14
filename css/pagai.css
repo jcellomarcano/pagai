@@ -616,12 +616,12 @@ section.subscribe-area{
 
   }
 @media only screen and (min-width: 360px) and (max-width: 480px) { /* Specific to this particular image */
-  .icon-boot{
+  .icon-boot-done{
     position: absolute;
       width: 80px;
       height: 80px;
-      left: 65%;
-      top: 50px;
+      left: 16%;
+      top: 60px;
       z-index: 100;
       transform: translate(-8%,0);
   }
@@ -632,7 +632,7 @@ section.subscribe-area{
     left: 65%;
     top: 211px;
     z-index: 100;
-    transform: translate(-8%,0);
+    transform: translate(-8%,0) !important;
   }
   .icon-qr-malito{
     position: absolute;
@@ -652,11 +652,13 @@ section.subscribe-area{
 
     .icon-transfer-money{
       position: absolute;
-      top: 45%;
+      top: 40%;
+      transform: translate(-8%,0) !important;
     }
     .icon-qr-done {
       position: absolute;
-      top: 75%;
+      top: 70%;
+      transform: translate(-8%,0) !important;
     }
     #mainNav {
       padding-top: 10px !important;
@@ -685,12 +687,6 @@ section.subscribe-area{
 }
 
 @media only screen and  (max-width: 359px) { /* Specific to this particular image */
-  .icon-boot-done{
-    position: absolute;
-    height: 8%;
-    top: 11%;
-    transform: translate(-20%,0);
-    }
 
     .line-done {
       position: absolute !important;
@@ -699,6 +695,12 @@ section.subscribe-area{
       height: calc(100% - 356px) !important;
     }
 
+    .icon-boot-done{
+      position: absolute;
+      height: 8%;
+      top: 11%;
+      transform: translate(-20%,0);
+    }
     .icon-transfer-money{
       position: absolute;
       height: 8%;
